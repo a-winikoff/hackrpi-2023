@@ -1,0 +1,55 @@
+h1 {
+    font-family: Ariel;
+    color: hotpink;
+    }
+h2 {
+    font-family: Ariel;
+    color: blueviolet;
+    }
+#otherh2 {
+    font-family: Ariel;
+    color: blue;
+    }
+.list {
+    color: green;
+}
+.list2 {
+    color: grey;
+}
+#List1Head {
+    text-decoration: underline; /*Underline*/
+    font-weight: 900; /*Embolden*/
+    font-style: italic; /*Italics*/
+}
+#List2Head {
+    color: black;
+    text-decoration: underline; /*Underline*/
+    font-weight: 500; /*Embolden*/
+    text-shadow: 0cqmax; /*IDK*/
+    font-size: x-large; /*BIG*/
+    font-family: cursive; /*Comic Sans*/
+}
+body{
+    background-color: rgb(194, 249, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 149%;
+}
+p{
+    text-align: center;
+    color: brown;
+    background-color: aqua;
+    width: fit-content;
+    height: 4rem;
+    /*Units for height and width include:
+    *px (pixels)
+    *em (relative to the font size of the parent)
+    *rem (relative to the font size of the root element)
+    *% (percentage of the parent’s width / height)*/
+    margin: 20px; /*add spacing around the outside of the element*/
+    padding: 20px; /*add spacing inside the element*/
+
+}
